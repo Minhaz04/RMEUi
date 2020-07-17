@@ -1,0 +1,404 @@
+html {
+  scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* top nav starts here */
+section.top-nav {
+    background: #197071;   
+    padding: 6px 0; 
+} 
+.top-nav ul{
+    margin-bottom: 0;
+}
+.top-nav ul li{
+    margin-right: 5px;
+}
+.top-nav ul li a{
+    color: white;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+/* top nav Ends here */
+
+
+/*nav bar section starts here */ 
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: none;
+    border-bottom: 1px solid;
+}
+ul.nav.navbar-nav.navbar-right {
+    padding: 2px 14px;
+}
+.navbar-default .navbar-nav>li>a {
+    padding: 32px 16px;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    color: black;
+    font-weight: 700;
+    transition: all 0.4s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover {
+        border-bottom: 3px solid #197071;
+        color: #197071;
+}
+a.navbar-brand {
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #197071 !important;
+    padding: 13px 17px;
+    font-size: 36px;
+}
+section.sliderwrap {
+        padding: 0px 0px;
+}
+section.sliderwrap .carousel-inner img.img-responsive {
+    width: 100%;
+}
+
+section.sliderwrap a.left.carousel-control {
+    background: none;
+}
+section.sliderwrap a.right.carousel-control {
+    background: none;
+}
+section.sliderwrap span.glyphicon.glyphicon-chevron-left {
+    background-color: #197071;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 18px 17px;
+    width: 50px;
+    color: white;
+    height: 50px;
+}
+section.sliderwrap span.glyphicon.glyphicon-chevron-right {
+    background-color: #197071;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 18px 17px;
+    width: 50px;
+    color: white;
+    height: 50px;
+}
+section.sliderwrap ol.carousel-indicators {
+    display: none;
+}
+section.sliderwrap  a.left.carousel-control {
+    width: 60px;
+}
+section.sliderwrap a.right.carousel-control {
+    width: 60px;
+}
+section.sliderwrap .carousel-inner .conten {
+    position: absolute;
+    left: 15%;
+    top: 15%
+}
+section.sliderwrap .carousel-inner .conten p {
+    color: white;
+    font-size: 32px;
+}
+section.sliderwrap .carousel-inner .conten h1 {
+    font-size: 80px;
+    color: white;
+    padding: 0px 2px;
+    font-weight: 900;
+}
+/*nav bar section ends here */
+
+/* Tab sections starts here */
+section.tabwrap {
+    padding: 40px 0px;
+
+}
+section.tabwrap h1 {
+    color: #197071;
+    margin-bottom: 2%;
+    font-weight: 900;
+}
+section.tabwrap p {
+    padding: 9px 17px;
+    text-align: justify;
+}
+section.tabwrap .space {
+    padding: 30px 0px;
+}
+/* Tab sections starts here */
+
+/* latetes products starts here */
+section.latestwrap {
+    padding: 40px 0px;
+    background-color: #9a9a9a12;
+} 
+.lastestbox {
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+}
+section.latestwrap img {
+    height: auto;
+    transition: 1s;
+}
+section.latestwrap img:hover
+{
+    transform: scale(1.4) rotate(-10deg);
+    background-color: black;
+    opacity: 0.4;
+}
+section.latestwrap h1 {
+    color: #197071;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+section.latestwrap p {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #197071;
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+    cursor: pointer;
+}
+/* latetes products Ends here */
+
+
+/*Head images starts here */
+section.headbackwrap
+{
+background-image: url('../img/slider/3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+padding: 100px 0px;
+}
+section.headbackwrap:before
+{
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+background-color: #06242770;
+position: absolute;
+top: 0;
+left: 0;
+}
+section.headbackwrap .contentboxwrap {
+    color: white;
+}
+section.headbackwrap .contentboxwrap.text-center p
+{
+    letter-spacing: 0.5px;
+}
+/*Head images Ends here */
+
+
+/*Content Section Starts here*/
+section.cotentswrap {
+    padding: 40px 0px;
+} 
+/*Content Section Ends here */
+
+
+/*Tab section starts here*/ 
+ section.tabwrap .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    padding: 10px 100px;
+    font-weight: 900;
+    background-color: #e2e2e2;
+}
+ section.tabwrap .tab-content {
+    text-align: justify;
+    background-color: #e2e2e2;
+    padding: 35px 25px;
+}
+ section.tabwrap .nav-tabs>li>a {
+    color: black;
+}
+ /*Tab section Ends here*/
+
+
+
+/* Cards Sections Starts Here */
+section.cardswrap {
+    padding: 40px 0px;
+}
+section.cardswrap h1 {
+    font-weight: 900;
+    color: #197071;
+    margin-bottom: 28px;
+}
+section.cardswrap .box {
+    padding: 10px 20px;
+    box-shadow: 5px 5px 12px 0px #fbfbfb;
+    margin-bottom: 5%;
+    background-color: #ffffff;
+    border-top: 5px solid #197071;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+    transition: 1s;
+}
+section.cardswrap .box:hover
+{
+    box-shadow: 5px 7px 13px 1px #6d6969;
+    transition: 1s;
+}
+section.cardswrap .box:hover button.btn-click 
+{
+    background-color: #197071;
+    color: white;
+    transition: 1s;
+}
+button.btn-click {
+    width: 100%;
+    color: #197071;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-weight: 900;
+    border: 2px solid #197071;
+        transition: 1s;
+}
+section.cardswrap .box h3 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #197071;
+    letter-spacing: 0.5px;
+}
+section.cardswrap .box p {
+    text-align: justify;
+    color: #848181;
+} 
+/* Cards Sections Ends Here */
+
+
+/*Footer section Starts here*/
+section.footerwrap {
+    background-color: black;
+    padding: 30px 0;
+}
+section.footerwrap h4 {
+    font-weight: 800;
+    color: white;
+    padding: 12px 0px;
+    border-bottom: 2px solid #197071;
+}
+section.footerwrap ul {
+    color: #626163;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    list-style: none;
+    font-size: 14px;
+    padding: 0px 0px;
+}
+section.footerwrap ul li a {
+    color: #65696e;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+section.footerwrap ul li a:hover {
+    color: #197071;
+    margin-left: 4%;
+}
+section.footerwrap h3 {
+    color: #717171;
+    font-size: 14px;
+}
+section.footerwrap button.btn {
+    border: 1px solid #197071;
+    padding: 8px 18px;
+    background-color: inherit;
+    color: white;
+    transition: 1s;
+}
+section.footerwrap p {
+    color: #909090;
+    padding: 2px 1px;
+    font-size: 15px;
+}
+section.footerwrap .media .media-left i.fa {
+    color: #197071;
+    font-size: 21px;
+}
+/*Footer section Starts here*/
+
+/*Footer-Sub section Starts here*/
+section.reqbottomwrap {
+    background-color: #101010;
+    padding: 8px 0px;
+}
+section.reqbottomwrap h3.text-left {
+font-weight: 700;
+    color: #636867;
+    font-size: 13px;
+}
+section.reqbottomwrap i.fa {
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 4px;
+    float: right;
+    width: 40px;
+    font-size: 15px;
+    color: #197071;
+    padding: 12px 13px;
+    margin-right: 1px;
+    border: 1px solid;
+}
+section.reqbottomwrap i.fa:hover {
+    transform: rotateZ(360deg);
+    transition: 1s;
+}
+/*Footer-Sub section Starts here*/
+.circle i.fa {
+    border-radius: 30px;
+    position: fixed;
+    height: auto;
+    background-color: #197071;
+    padding: 8px 15px;
+    bottom: 10px;
+    right: 9px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+}
+
+@media (max-width: 640px) {
+a.navbar-brand{
+    margin: 4px;
+    font-size: 17px;    
+}
+section.sliderwrap span.glyphicon.glyphicon-chevron-left {
+    font-size: 12px;
+    padding: 14px 9px;
+    width: 38px;
+    color: white;
+    height: 39px;
+}
+section.sliderwrap span.glyphicon.glyphicon-chevron-right {
+    font-size: 12px;
+    padding: 14px 9px;
+    width: 38px;
+    color: white;
+    height: 39px;
+}
+section.sliderwrap .carousel-inner .conten h1 {
+    font-size: 38px;
+    }
+}
+
+@media (max-width: 480px) {
+section.sliderwrap .carousel-inner .conten h1 {
+    font-size: 38px;
+    }
+}
